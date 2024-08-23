@@ -1,67 +1,70 @@
-# Content-Management-System-CMS
+# Getting Started with Create React App
 
-This repository contains a Content Management System (CMS) built with React. The CMS provides an intuitive and user-friendly interface for managing digital content. It includes features for viewing, creating, editing, and organizing content, making it suitable for various types of content management needs.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Features:
-Dashboard: Overview of key metrics, recent activities, and quick access buttons for managing content.
+## Available Scripts
 
-Content List: Displays a list of all content items with options to search, filter, edit, and delete.
+In the project directory, you can run:
 
-Content Editor: Allows users to create and edit content with a rich text editor, category selection, tag management, and image upload.
+### `npm start`
 
-Navigation: Provides easy access to all main sections including Dashboard, Content List, and Content Editor.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Responsive Design: Ensures usability on various devices with a mobile-friendly layout.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Technology Stack:
+### `npm test`
 
-Frontend: React, CSS (for styling)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Backend (Mock Data): REST API endpoints (simulated for demonstration purposes)
+### `npm run build`
 
-Styling: Custom CSS for a clean, modern look
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Installation:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Clone the repository:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-bash
+### `npm run eject`
 
-Copy code
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-git clone https://github.com/Pankaj-jha2000/cms-project.git
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Navigate to the project directory:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-bash
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Copy code
+## Learn More
 
-cd cms-project
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Install dependencies:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-bash
+### Code Splitting
 
-Copy code
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-npm install
+### Analyzing the Bundle Size
 
-Start the development server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-bash
+### Making a Progressive Web App
 
-Copy code
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-npm start
+### Advanced Configuration
 
-Usage:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Access the CMS in your web browser at http://localhost:3000.
+### Deployment
 
-Use the navigation menu to access the Dashboard, Content List, or Content Editor.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Add, edit, and manage content using the provided features.
+### `npm run build` fails to minify
 
-Feel free to contribute or suggest improvements via pull requests or issues.
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
